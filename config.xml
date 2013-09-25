@@ -5,14 +5,14 @@
 		version = "1.0.0"
 		versionCode = "1">
 
-    <name>APPLICATION NAME</name>
+    <name>SCRD</name>
 
     <description>
         APPLICATION DESCRIPTION
     </description>
 
-    <author href="http://venerons.github.io" email="veneronslaboratories@gmail.com">
-        Daniele Veneroni
+    <author href="http://javima4.github.io" email="javima4@gmail.com">
+        Javier Sanchez
 	</author>
         
     <!-- ICONS -->
