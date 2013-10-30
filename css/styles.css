@@ -170,7 +170,7 @@ a:hover {
     margin: 0 -2em 1em 0;
     text-indent: -9999px;
     overflow: hidden;
-    background: #444 url("img/hamburger.gif") no-repeat 50% 33%;
+    background: #444 url("../img/hamburger.gif") no-repeat 50% 33%;
   }
   .main {
     -webkit-overflow-scrolling: auto;
@@ -194,7 +194,7 @@ a:hover {
     background-size: 200px 200px;
   }
   .nav-toggle {
-    background-image: url("img/hamburger-retina.gif");
+    background-image: url("../img/hamburger-retina.gif");
     -webkit-background-size: 100px 100px;
     -moz-background-size: 100px 100px;
     -o-background-size: 100px 100px;

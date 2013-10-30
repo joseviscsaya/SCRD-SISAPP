@@ -76,18 +76,49 @@
 
     <div role="navigation" id="foo" class="nav-collapse">
       <ul>
-        <li class="active"><a href="#">Actualidad</a></li>
-        <li><a href="#">Localidad</a></li>
-        <li><a href="#">Mapas</a></li>
-        <li><a href="#">Reportes</a></li>
-        <li><a href="#">Convocatorias</a></li>
+        <li class="active"><a href="#page1" data-transition="slide">Actualidad</a></li>
+        <li><a href="#page2" data-transition="slide">Localidad</a></li>
+        <li><a href="#page3" data-transition="slide">Mapas</a></li>
+        <li><a href="#page4" data-transition="slide">Reportes</a></li>
+        <li><a href="#page5" data-transition="slide">Convocatorias</a></li>
       </ul>
     </div>
 
     <div role="main" class="main">
       <a href="#nav" class="nav-toggle">Menu</a>
-      <!--<img src="img/Propuesta01.jpg" width="480" height="720">-->
-    </div> 
+        <div data-role="page" id="page1" data-transition="slide">
+          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
+            <h1>Actualidad</h1> Esta es la página de actualidad
+          </div>
+        </div>
+        
+        <div data-role="page" id="page2" data-transition="slide">
+          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
+            <h1>Localidad</h1> Esta es la página de localidad
+          </div>
+        </div> 
+        
+        <div data-role="page" id="page3" data-transition="slide">
+          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
+            <h1>Mapas</h1> Esta es la página de mapas
+          </div>
+        </div> 
+        
+        <div data-role="page" id="page4" data-transition="slide">
+          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
+            <h1>Reportes</h1> Esta es la página de Reportes
+          </div>
+        </div> 
+        
+        <div data-role="page" id="page5" data-transition="slide">
+          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
+            <h1>Convocatorias</h1> Esta es la página de Convocatorias
+          </div>
+        </div> 
+
+    </div>
+    
+    
 
  <div data-role="footer" data-position="fixed" style="position: fixed;bottom: 0px; text-align:center; background:url(img/footer-01.jpg); color:#060; height:30px; padding-bottom:45px; width:100%;"> 
     </div>
