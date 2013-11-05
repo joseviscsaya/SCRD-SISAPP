@@ -66,8 +66,14 @@ a:hover {
   outline: 0;
 }
 
-.footer{
-	
+.titulo{
+	font:Verdana, Geneva, sans-serif; 
+	font-size:11px; 
+	font-weight:bold; 
+	color:#00678D; 
+	padding-top:18px;
+	padding-left:150px; 
+	text-align:center;
 }
 
 .main {
@@ -85,7 +91,6 @@ a:hover {
   right: 0;
   bottom: 0;
   width: 76%;
-  background: #fff;
 }
 
 .main::-webkit-scrollbar {
@@ -154,7 +159,7 @@ a:hover {
     width: 100%;
     position: relative;
   }
-  .nav-collapse.opened { max-height: 9999px }
+  .nav-collapse.opened { max-height: 9999px; }
   .nav-collapse a:hover { background: transparent }
   .nav-collapse .active a:hover { color: #fff; background: rgba(0,0,0, .3) }
   .nav-toggle {
@@ -204,5 +209,5 @@ a:hover {
 
 @media screen and (min-width: 76em) {
   .nav-collapse { width: 18em }
-  .main { width: auto; left: 18em }
+  .main { width: auto; left: 18em;}
 }

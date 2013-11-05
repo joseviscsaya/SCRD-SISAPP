@@ -69,12 +69,12 @@ a:hover {
 .main {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box;background: rgba(255,255,255, .1)
   -webkit-overflow-scrolling: touch;
   padding: 3em 4em;
   position: fixed;
-  overflow: hidden;
-  overflow-y: scroll;
+  /*overflow: hidden;
+  overflow-y: scroll;*/
   border-top-left-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0, .6);
   top: .8em;
@@ -97,7 +97,7 @@ a:hover {
 }
 
 .nav-collapse {
-  position: absolute;
+  position: fixed;
   width: 24%;
   top: 2em;
   left: 0;
@@ -106,6 +106,7 @@ a:hover {
 .nav-collapse ul {
   display: block;
   width: 100%;
+  position: fixed;
   list-style: none;
 }
 
@@ -128,7 +129,8 @@ a:hover {
   border-top: 1px solid rgba(255,255,255, .1);
   display: block;
   padding: .6em 2em;
-  width: 100%;
+  width: 20%;
+  position:fixed;
 }
 
 .nav-collapse a:hover { background: rgba(255,255,255, .1) }
@@ -148,11 +150,11 @@ a:hover {
   .nav-collapse {
     top: 0;
     width: 100%;
-    position: relative;
+    position: fixed;
   }
   .nav-collapse.opened { max-height: 9999px }
-  .nav-collapse a:hover { background: transparent }
-  .nav-collapse .active a:hover { color: #fff; background: rgba(0,0,0, .3) }
+  /*.nav-collapse a:hover { background: transparent }
+  .nav-collapse .active a:hover { color: #fff; background: rgba(0,0,0, .3) }*/
   .nav-toggle {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -166,6 +168,7 @@ a:hover {
     margin: 0 -2em 1em 0;
     text-indent: -9999px;
     overflow: hidden;
+	position: fixed;
     background: #444 url("hamburger.gif") no-repeat 50% 33%;
   }
   .main {
@@ -173,7 +176,7 @@ a:hover {
     box-shadow: none;
     padding: 0 2em 2em;
     border-radius: 0;
-    position: relative;
+    position: fixed;
     width: 100%;
     overflow: hidden;
   }
@@ -194,10 +197,11 @@ a:hover {
     -moz-background-size: 100px 100px;
     -o-background-size: 100px 100px;
     background-size: 100px 100px;
+	position: fixed;
   }
 }
 
 @media screen and (min-width: 76em) {
   .nav-collapse { width: 18em }
-  .main { width: auto; left: 18em }
+  .main { width: auto; left: 18em; position:fixed;}
 }

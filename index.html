@@ -54,6 +54,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!--[if lte IE 8]><link rel="stylesheet" href="../../responsive-nav.css"><![endif]-->
     <!--[if gt IE 8]><!--><link rel="stylesheet" href="css/styles.css"><!--<![endif]-->
+    
     <script src="js/responsive-nav.js"></script>
     
     <!-- JQUERY -->
@@ -71,56 +72,76 @@
           },false);   
      </script>
     
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-
-    <div role="navigation" id="foo" class="nav-collapse">
-      <ul>
-        <li class="active"><a href="#page1" data-transition="slide">Actualidad</a></li>
-        <li><a href="#page2" data-transition="slide">Localidad</a></li>
-        <li><a href="#page3" data-transition="slide">Mapas</a></li>
-        <li><a href="#page4" data-transition="slide">Reportes</a></li>
-        <li><a href="#page5" data-transition="slide">Convocatorias</a></li>
-      </ul>
-    </div>
-
-    <div role="main" class="main">
-      <a href="#nav" class="nav-toggle">Menu</a>
-        <div data-role="page" id="page1" data-transition="slide">
-          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
-            <h1>Actualidad</h1> Esta es la página de actualidad
-          </div>
+    
+        <div style="position:fixed; top:0px; left:0px; width:100%;">
+        
+            <div role="navigation" id="foo" class="nav-collapse" style="margin-top:22px; position:fixed">
+              <ul>
+                <!--<li class="active"><a href="#page1">Actualidad</a></li>-->
+                <li><a href="#page1">Actualidad</a></li>
+                <li><a href="#page2" data-transition="slide">Localidad</a></li>
+                <li><a href="#page3" data-transition="slide">Mapas</a></li>
+                <li><a href="#page4" data-transition="slide">Reportes</a></li>
+                <li><a href="#page5" data-transition="slide">Convocatorias</a></li>
+              </ul>
+            </div>
+                
+            
+	
+     		<div role="main" class="main" style="height:60px; background:url(img/alcaldiaBogotaHumana.png) no-repeat #FFF; background-size:contain;">
+            	<a href="#nav" class="nav-toggle">Menu</a>
+                <div class="titulo">
+                	Secretaría de Cultura, Recreación y Deporte
+                </div>
+            </div>
+            
+            <div style="width:100%; height:300px; overflow:hidden; overflow-y:scroll; margin-top:15px; position:relative;" ><!--Contenido-->
+                <div data-role="page" id="page1" >
+                    <div data-role="content" align="center"> 
+                        <h1>Actualidad</h1>
+                        En  el  presente manual  se establecen  los  elementos  gráficos  y de  estructura de  contenido  para  el diseño de pantallBajo este contexto, las aplicaciones web deben ser representaciones en internet de la administración pública,  por  lo  que   deben  enfocar  sus  esfuerzos  en   brindar  al  ciudadano  todos  los  elementos necesarios para  la realización de trámites y servicios y para  mantenerlo informado sobre los temas de mayor   interés,  a  través  de  elementos  gráficos  y  de  contenidos  homogéneos,  que   generen  una percepción en el usuario de que los sitios pertenecen a la misma organización.as del Sistema de Información Sectorial (SIS).
+                    </div>
+                </div>
+                <div data-role="page" id="page2" >
+                    <div data-role="content" align="center"> 
+                        <h1>Localidad</h1>
+                        En  el  presente manual  se establecen  los  elementos  gráficos  y de  estructura de  contenido  para  el diseño de pantallBajo este contexto, las aplicaciones web deben ser representaciones en internet de la administración pública,  por  lo  que   deben  enfocar  sus  esfuerzos  en   brindar  al  ciudadano  todos  los  elementos necesarios para  la realización de trámites y servicios y para  mantenerlo informado sobre los temas de mayor   interés,  a  través  de  elementos  gráficos  y  de  contenidos  homogéneos,  que   generen  una percepción en el usuario de que los sitios pertenecen a la misma organización.as del Sistema de Información Sectorial (SIS).
+                    </div>
+                </div>
+                <div data-role="page" id="page3" >
+                    <div data-role="content" align="center"> 
+                        <h1>Mapas</h1>
+                        En  el  presente manual  se establecen  los  elementos  gráficos  y de  estructura de  contenido  para  el diseño de pantallBajo este contexto, las aplicaciones web deben ser representaciones en internet de la administración pública,  por  lo  que   deben  enfocar  sus  esfuerzos  en   brindar  al  ciudadano  todos  los  elementos necesarios para  la realización de trámites y servicios y para  mantenerlo informado sobre los temas de mayor   interés,  a  través  de  elementos  gráficos  y  de  contenidos  homogéneos,  que   generen  una percepción en el usuario de que los sitios pertenecen a la misma organización.as del Sistema de Información Sectorial (SIS).
+                    </div>
+                </div>
+                <div data-role="page" id="page4" >
+                    <div data-role="content" align="center"> 
+                        <h1>Reportes</h1>
+                        En  el  presente manual  se establecen  los  elementos  gráficos  y de  estructura de  contenido  para  el diseño de pantallBajo este contexto, las aplicaciones web deben ser representaciones en internet de la administración pública,  por  lo  que   deben  enfocar  sus  esfuerzos  en   brindar  al  ciudadano  todos  los  elementos necesarios para  la realización de trámites y servicios y para  mantenerlo informado sobre los temas de mayor   interés,  a  través  de  elementos  gráficos  y  de  contenidos  homogéneos,  que   generen  una percepción en el usuario de que los sitios pertenecen a la misma organización.as del Sistema de Información Sectorial (SIS).
+                    </div>
+                </div>
+                <div data-role="page" id="page5" >
+                    <div data-role="content" align="center"> 
+                        <h1>Convocatorias</h1>
+                        En  el  presente manual  se establecen  los  elementos  gráficos  y de  estructura de  contenido  para  el diseño de pantallBajo este contexto, las aplicaciones web deben ser representaciones en internet de la administración pública,  por  lo  que   deben  enfocar  sus  esfuerzos  en   brindar  al  ciudadano  todos  los  elementos necesarios para  la realización de trámites y servicios y para  mantenerlo informado sobre los temas de mayor   interés,  a  través  de  elementos  gráficos  y  de  contenidos  homogéneos,  que   generen  una percepción en el usuario de que los sitios pertenecen a la misma organización.as del Sistema de Información Sectorial (SIS).
+                    </div>
+                </div>
+            
+          <!--Cierre Contenido--></div>     
         </div>
-        
-        <div data-role="page" id="page2" data-transition="slide">
-          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
-            <h1>Localidad</h1> Esta es la página de localidad
-          </div>
-        </div> 
-        
-        <div data-role="page" id="page3" data-transition="slide">
-          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
-            <h1>Mapas</h1> Esta es la página de mapas
-          </div>
-        </div> 
-        
-        <div data-role="page" id="page4" data-transition="slide">
-          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
-            <h1>Reportes</h1> Esta es la página de Reportes
-          </div>
-        </div> 
-        
-        <div data-role="page" id="page5" data-transition="slide">
-          <div data-role="content" align="center" style="height:400px; background-color:#009933;">
-            <h1>Convocatorias</h1> Esta es la página de Convocatorias
-          </div>
-        </div> 
-
-    </div>
+            
+    
+    
+    
+   
+    
     
     
 
- <div data-role="footer" data-position="fixed" style="position: fixed;bottom: 0px; text-align:center; background:url(img/footer-01.jpg); color:#060; height:30px; padding-bottom:45px; width:100%;"> 
+ <div role="footer" data-position="fixed" style="position: fixed;bottom: 0px; text-align:center; background:url(img/footer-01.jpg); color:#060; height:30px; padding-bottom:45px; width:100%;"> 
     </div>
 
     <script>
